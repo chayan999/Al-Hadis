@@ -98,6 +98,29 @@ button{
     font-weight: 500;
     color:rgba(255, 255, 255, 1);
     margin-bottom: 137px;
+    width:613px;
+    text-align: center;
+}
+
+.banner-info h2{
+    font-size: 40px;
+    line-height:63px;
+    font-weight: 400;
+    color:rgba(255, 255, 255, 1);
+    margin-bottom: 16px;
+}
+
+.banner-form input{
+    width: 100%;
+    border-radius: 8px;
+    background: #fff;
+    padding:28px 0;
+    border: none;
+    outline: none;
+    
+}
+.banner-form input::placeholder{
+    padding-left: 37px;
 }
 
 /* ========== BANNER SECTION END ======= */
