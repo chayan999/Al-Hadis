@@ -1,0 +1,104 @@
+
+@font-face {
+    font-family: "kalpurush";
+    src: url(../font/kalpurush.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'kalpurush', sans-serif;
+   
+}
+a{
+    text-decoration: none;
+}
+
+ul,ol{
+    list-style: none;
+}
+button{
+    border: none;
+    outline: none;
+}
+
+
+/* ========== NAVBAR START ======= */
+
+.nav-link{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 35.5px;
+    /* color: rgba(255, 255, 255, 1); */
+    transition: all linear 0.3s;
+    padding: 0 !important;
+    padding: 0 20px !important;
+    position: relative;
+}
+.nav-link:hover{
+    color: rgba(54, 163, 125, 1);
+}
+
+.nav-link::after{
+    content: "";
+    position:absolute;
+    bottom: 0;
+    width: 0;
+    height: 1.5px;
+    left: 0;
+    background-color: rgba(54, 163, 125, 1);
+    transition: all linear 0.3s;
+}
+
+.nav-link:hover::after{
+    width: 100%;
+}
+.btn-support{
+    border: 3px solid rgba(54, 163, 125, 1);
+    padding: 0 !important;
+    padding: 11px 20px !important;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 1);
+    display: flex;
+    align-items: center;
+   gap:12px
+}
+.btn-support span{
+    color: rgba(54, 163, 125, 1);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 35.5px;
+}
+.btn-support img{
+    width: 23px;
+    height: 19px;
+}
+/* ========== NAVBAR END ======= */
+
+/* ========== BANNER SECTION START ======= */
+#banner-section{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.78),rgba(0, 0, 0, 0.78)), url(../img/banner-bg-img.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 297px;
+    padding-bottom: 78px;
+   
+}
+
+.banner-info{
+    text-align: center;
+}
+.banner-info p{
+    margin-top:137px;
+    font-size: 18px;
+    line-height:27px;
+    font-weight: 500;
+    color:rgba(255, 255, 255, 1);
+    margin-bottom: 137px;
+}
+
+/* ========== BANNER SECTION END ======= */
+
