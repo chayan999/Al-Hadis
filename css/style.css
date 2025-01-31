@@ -31,11 +31,12 @@ button{
     font-size: 20px;
     font-weight: 400;
     line-height: 35.5px;
-    /* color: rgba(255, 255, 255, 1); */
+    color: rgba(255, 255, 255, 1);
     transition: all linear 0.3s;
     padding: 0 !important;
     padding: 0 20px !important;
     position: relative;
+    
 }
 .nav-link:hover{
     color: rgba(54, 163, 125, 1);
@@ -110,18 +111,125 @@ button{
     margin-bottom: 16px;
 }
 
-.banner-form input{
+.banner-form{
     width: 100%;
     border-radius: 8px;
     background: #fff;
-    padding:28px 0;
+    padding:6px 6px;
+}
+.serch-input{
+    width:75%;
+}
+.banner-form input{
+  padding-left: 37px;
     border: none;
     outline: none;
-    
+    text-align: left;
+    width: 100%;
+    font-size: 15px;
+    line-height:18.5px;
+    font-weight: 500;
+    color: rgba(169, 163, 183, 1);
 }
-.banner-form input::placeholder{
-    padding-left: 37px;
+.banner-serch-btn{
+    padding: 15px 27px;
+    background: rgba(54, 163, 125, 1);
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    font-size: 20px;
+    line-height:31.5px;
+    font-weight: 400;
+    color: #FFFf;
+}
+/* ========== BANNER SECTION END ======= */
+
+/* ========== ABOUT SECTION END ======= */
+#about{
+    padding: 66px 0;
+    background-image:linear-gradient(#f0f0f04f, #f0f0f000), url("../img/about-bg.svg");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.abotu-heading h2{
+    font-size: 40px;
+    line-height:36px;
+    font-weight: 400;
+    color: rgba(54, 163, 125, 1);
+    margin-bottom: 10px;
+}
+.abotu-heading p{
+    font-size: 18px;
+    line-height:27px;
+    font-weight: 400;
+    color: rgba(98, 109, 125, 1);
+    width:720px;
+}
+.about-card{
+    margin-top: 46px;
+}
+.card-item-hover-box{
+    padding: 7px 6px;
+    background: transparent;
+    border-radius: 12px;
+    position: relative;
+    transition: all linear 0.3s;
+}
+.about-card-item{
+    padding: 158px 126px 177px 126px;
+    background: #ffffff;
+    border-radius: 12px;
+    transition: all linear 0.3s;
 }
 
-/* ========== BANNER SECTION END ======= */
+.about-card-item h5{
+    font-size: 25px;
+    line-height:39px;
+    font-weight: 400;
+    color: rgba(54, 163, 125, 1);
+    width: 155px;
+    transition: all linear 0.3s;
+}
+.about-card-item p{
+    font-size: 16px;
+    line-height:25.2px;
+    font-weight: 400;
+    color: rgba(98, 109, 125, 1);
+    width: 118px;
+    transition: all linear 0.3s;
+}
+.card-item-hover-box::after{
+    position: absolute;
+    content: "";
+    background-image: url(../img/card-item-bg-up.svg);
+    top: 0;
+    right: 0;
+    width: 170px;
+    height: 155px;
+}
+.card-item-hover-box::before{
+    position: absolute;
+    content: "";
+    background-image: url(../img/card-item-bg-bottom.svg);
+    bottom: 0;
+    left: 0;
+    width: 170px;
+    height: 155px;
+}
+
+
+.card-item-hover-box:hover {
+    background:rgba(54, 163, 125, 1);
+}
+.card-item-hover-box:hover .about-card-item{
+    background:rgba(54, 163, 125, 1);
+    border: 1px solid rgba(255, 255, 255, 1);
+}
+.card-item-hover-box:hover .about-card-item h5{
+    color: rgba(255, 255, 255, 1);
+}
+.card-item-hover-box:hover .about-card-item p{
+    color: rgba(255, 255, 255, 1);
+}
+/* ========== ABOUT SECTION END ======= */
 
