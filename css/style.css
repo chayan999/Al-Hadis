@@ -283,4 +283,40 @@ button{
     }
 /* ========== INFORMATION SECTION END ======= */
 
+/* ========== SERVICE SECTION START ======= */
+#sercice{
+    background-image: url("../img/service-bg.png");
+    background-size: cover;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    padding: 70px 0;
+}
+
+.service-header h2{
+    font-weight: 400;
+   font-size: 40px;
+   line-height: 63px;
+   letter-spacing: 0%;
+   text-align: center;
+   color: rgba(54, 163, 125, 1);
+
+}
+
+.service-header p{
+    width: 724px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 52px;
+}
+
+.service-card{
+    padding: 172px 130px;
+}
+/* ========== SERVICE SECTION END ======= */
+
+
 
