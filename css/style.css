@@ -167,6 +167,7 @@ button{
 }
 .about-card{
     margin-top: 46px;
+    margin-bottom: 90px;
 }
 .card-item-hover-box{
     padding: 7px 6px;
@@ -220,6 +221,7 @@ button{
 
 .card-item-hover-box:hover {
     background:rgba(54, 163, 125, 1);
+    transform: translateY(-1px);
 }
 .card-item-hover-box:hover .about-card-item{
     background:rgba(54, 163, 125, 1);
@@ -231,5 +233,54 @@ button{
 .card-item-hover-box:hover .about-card-item p{
     color: rgba(255, 255, 255, 1);
 }
+.about-btn button{
+    padding: 15px 23px;
+    background:rgba(54, 163, 125, 1);
+    border-radius: 8px;
+}
+.about-btn button span {
+    font-size: 20px;
+    line-height: 31.5px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+   text-align: center;
+   padding-right: 21px;
+   padding-left: 10px;
+}
+.about-btn button i{
+    color: rgba(255, 255, 255, 1);
+}
 /* ========== ABOUT SECTION END ======= */
+
+/* ========== INFORMATION SECTION START ======= */
+    #information{
+        padding:50px 0;
+    }
+    .information-bg{
+        background-image: url("../img/information-bg.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        padding: 225px 0;
+    }
+    .information-wrapper{
+        width:970px ;
+        height:238px;
+    }
+    .img-overlay{
+        position: absolute;
+        font-weight: 400;
+        font-size: 23px;
+        line-height: 34.5px;
+        letter-spacing: 0%;
+        color: rgba(255, 255, 255, 1);
+        width: 856px;
+        text-align: center;
+        content: "";
+        top: 50%;
+        left: 5%;
+        transform: translateY(-50%);
+    }
+/* ========== INFORMATION SECTION END ======= */
+
 
