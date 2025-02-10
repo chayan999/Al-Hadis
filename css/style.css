@@ -358,5 +358,35 @@ button{
 }
 /* ========== SERVICE SECTION END ======= */
 
+/* ========== CTA SECTION END ======= */
+    #cta{
+        margin-bottom: 50px;
+    }
+
+    .cta-wrapper{
+        background-image: url("../img/cta-bg.png");
+        background-size: cover;
+        background-position: 0 0;
+        background-repeat: no-repeat;
+        padding: 92px 0;
+    }
+    .cta-heading h2{
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 63px;
+        letter-spacing: 0%;
+        text-align: center;
+        color: rgba(54, 163, 125, 1);
+        width: 369px;
+    }
+    .cta-heading p{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        text-align: center;
+        color: rgba(98, 109, 125, 1);
+    }
+/* ========== CTA SECTION END ======= */
+
 
 
