@@ -146,7 +146,7 @@ button{
 /* ========== ABOUT SECTION END ======= */
 #about{
     padding: 66px 0;
-    background-image:linear-gradient(#f0f0f04f, #f0f0f000), url("../img/about-bg.svg");
+    background-image:linear-gradient(#f0f0f08a, #f0f0f08a), url("../img/about-bg.svg");
     background-position: 0 0;
     background-repeat: no-repeat;
     background-size: cover;
@@ -284,8 +284,8 @@ button{
 /* ========== INFORMATION SECTION END ======= */
 
 /* ========== SERVICE SECTION START ======= */
-#sercice{
-    background-image: url("../img/service-bg.png");
+#service{
+    background-image: linear-gradient(#f0f0f08a, #f0f0f08a),url("../img/service-bg.png");
     background-size: cover;
     background-position: 0 0;
     background-repeat: no-repeat;
@@ -315,6 +315,46 @@ button{
 
 .service-card{
     padding: 172px 130px;
+    background-image: url(../img/service-card-bg.png);
+   background-repeat: no-repeat;
+   background-position: 0 0;
+   background-size: cover;
+   border-radius: 12px;
+   transition: all linear 0.3s;
+}
+.service-card:hover{
+    background-image: url("../img/service-card-bg-hover.png");
+}
+
+.service-card h4{
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 39.38px;
+    color:rgba(54, 163, 125, 1);
+}
+.service-card p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28.35px;
+    color: rgba(98, 109, 125, 1);
+}
+.service-btn button{
+    margin-top: 52px;
+    padding: 15px 20px;
+    background: rgba(54, 163, 125, 1);
+    color: rgba(255, 255, 255, 1); 
+    border-radius: 8px;
+}
+
+.service-btn button span{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 31.5px; 
+     margin-right: 18px;
+     margin-left: 10px;
+}
+.service-btn button i{
+    font-size: 28px;
 }
 /* ========== SERVICE SECTION END ======= */
 
