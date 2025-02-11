@@ -412,5 +412,28 @@ button{
     }
 /* ========== CTA SECTION END ======= */
 
+/* ========== FOOTER SECTION START ======= */
+#footer-section{
+    padding: 74px 0;
+    background-color: rgba(63, 168, 131, 1);
+}
+
+.footer-heading-wrapper img{
+    border: 1.5px solid #ffffff;
+    border-radius: 12px;
+    width: 47px;
+    height: 47px;
+    padding: 8px;
+}
+
+.footer-heading-wrapper span{
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 44.1px;
+    color: rgba(255, 255, 255, 1);
+}
+/* ========== FOOTERSECTION END ======= */
+
+
 
 
