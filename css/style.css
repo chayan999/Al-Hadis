@@ -374,10 +374,10 @@ button{
         font-weight: 400;
         font-size: 40px;
         line-height: 63px;
-        letter-spacing: 0%;
         text-align: center;
         color: rgba(54, 163, 125, 1);
-        width: 369px;
+        margin: 0 auto;
+        padding: 0 215px;
     }
     .cta-heading p{
         font-weight: 400;
@@ -385,6 +385,30 @@ button{
         line-height: 27px;
         text-align: center;
         color: rgba(98, 109, 125, 1);
+        width: 744px;
+        margin-top: 10px;
+        margin-bottom: 76px;
+    }
+    .cta-btn button{
+        padding: 14px 34px;
+        background: rgba(54, 163, 125, 1);
+        border-radius: 10px;
+    }
+    .cta-btn button span:first-child{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21.78px;
+        color:rgba(255, 255, 255, 1)
+    }
+    .cta-btn button span:last-child{
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 21.78px;;
+        color: rgba(255, 255, 255, 1)
+    }
+    .cta-btn button i{
+        font-size: 30px;
+        color: #FFFf;
     }
 /* ========== CTA SECTION END ======= */
 
