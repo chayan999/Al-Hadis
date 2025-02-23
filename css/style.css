@@ -3,6 +3,7 @@
     font-family: "kalpurush";
     src: url(../font/kalpurush.ttf);
 }
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -10,7 +11,6 @@
 }
 body{
     font-family: 'kalpurush', sans-serif;
-   
 }
 a{
     text-decoration: none;
@@ -37,6 +37,9 @@ button{
     padding: 0 20px !important;
     position: relative;
     
+}
+.nav-link:focus, .nav-link:hover {
+    color: rgba(54, 163, 125, 1);
 }
 .nav-link:hover{
     color: rgba(54, 163, 125, 1);
@@ -264,7 +267,7 @@ button{
         padding: 225px 0;
     }
     .information-wrapper{
-        width:970px ;
+        width:63.151vw; /* width:970px  */
         height:238px;
     }
     .img-overlay{
@@ -337,6 +340,7 @@ button{
     font-size: 18px;
     line-height: 28.35px;
     color: rgba(98, 109, 125, 1);
+    width: 120px;
 }
 .service-btn button{
     margin-top: 52px;
@@ -395,12 +399,14 @@ button{
         border-radius: 10px;
     }
     .cta-btn button span:first-child{
+        font-family: "Inter", serif;
         font-weight: 400;
         font-size: 18px;
         line-height: 21.78px;
         color:rgba(255, 255, 255, 1)
     }
     .cta-btn button span:last-child{
+        font-family: "Inter", serif;
         font-weight: 700;
         font-size: 18px;
         line-height: 21.78px;;
@@ -414,10 +420,19 @@ button{
 
 /* ========== FOOTER SECTION START ======= */
 #footer-section{
-    padding: 74px 0;
+    padding-top: 74px;
     background-color: rgba(63, 168, 131, 1);
 }
-
+.footer-bg-img{
+    background-image: url("../img/footer-bg-img.png");
+    background-size: cover;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    padding-bottom: 74px;
+}
+.footer-heading-wrapper{
+    margin-bottom: 65px;
+}
 .footer-heading-wrapper img{
     border: 1.5px solid #ffffff;
     border-radius: 12px;
@@ -432,7 +447,40 @@ button{
     line-height: 44.1px;
     color: rgba(255, 255, 255, 1);
 }
-/* ========== FOOTERSECTION END ======= */
+.footer-menu-heading h5{
+     margin-bottom: 14px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 31.5px;
+    color:rgba(255, 255, 255, 1);
+}
+.footer-menu-heading p{
+   
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25.2px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.footer-menu-left .footer-menu-heading ul li a{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25.2px;
+    color: rgba(255, 255, 255, 1);
+    
+}
+.footer-menu-left .footer-menu-heading ul{
+    padding-left: 0 !important;
+}
+.footer-menu-left .footer-menu-heading ul li{
+    margin-bottom: 17px;
+}
+
+.footer-eng-text{
+    font-family: "Inter", serif;
+}
+/* ========== FOOTER SECTION END ======= */
+
 
 
 
