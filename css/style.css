@@ -365,14 +365,15 @@ button{
 /* ========== CTA SECTION END ======= */
     #cta{
         margin-bottom: 50px;
-    }
-
-    .cta-wrapper{
         background-image: url("../img/cta-bg.png");
         background-size: cover;
         background-position: 0 0;
         background-repeat: no-repeat;
         padding: 92px 0;
+    }
+
+    .cta-wrapper{
+       
     }
     .cta-heading h2{
         font-weight: 400;

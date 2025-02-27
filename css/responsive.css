@@ -1,6 +1,6 @@
 
 /* RESPOSIVE FOR SMALL DEVICE START */
-@media (min-width: 375px) and (max-width: 575.99px) { 
+@media (min-width: 360px) and (max-width: 575.99px) { 
 
     /* NAV SECTION START */
 
@@ -35,7 +35,7 @@
     }
 
     .banner-info h2 {
-        font-size: 17px;
+        font-size: 6.0869vw;
         line-height: 9.5652VW;
         margin-bottom: 5vw;
     }
@@ -68,8 +68,7 @@
 }
 
 .abotu-heading p {
-    /* font-size: 2.7826vw; */
-    font-size: 17px;
+    font-size: 2.7826vw;
     line-height: 4.5217vw;
     width: 100%;
 }
@@ -118,8 +117,7 @@
 }
 
 .img-overlay {
-    /* font-size: 2.6086vw; */
-    font-size: 15px;
+    font-size: 2.6086vw;
     line-height: 5.2173vw;
     width: 90%;
 }
@@ -247,6 +245,7 @@
 /* RESPOSIVE FOR SMALL DEVICE END */
 
 /* RESPOSIVE FOR MEDIUM DEVICE START */
+
 @media (min-width: 576px) and (max-width: 768px){
 
     /* ========== BANNER SECTION START ======= */
@@ -315,6 +314,41 @@
     /* ========== INFORMATION SECTION END ======= */
 
 }
+
+    /* ========== SERVICE SECTION END ======= */
+
+    #service {
+        padding: 50px 0;
+    }
+
+    .service-header h2 {
+        font-size: 30px;
+        line-height: 60px;
+    }
+
+    .service-header p {
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-bottom: 50px;
+    }
+
+.service-card {
+    padding: 150px 130px;
+    margin-bottom: 30px;
+}
+
+    .service-card p {
+    width: 100%;
+}
+.service-btn button {
+    margin-top: 30px;
+}
+    /* ========== SERVICE SECTION END ======= */
+
+
+    /* ========== SERVICE SECTION END ======= */
+
 
 /* RESPOSIVE FOR MEDIUM DEVICE END */
 
